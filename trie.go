@@ -3,7 +3,6 @@ package trie
 type Node struct {
 	children map[rune]*Node
 	values   []string
-	isEnd    bool
 }
 
 type Trie struct {
