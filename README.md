@@ -1,5 +1,7 @@
 
-# go-trie
+![go-trie-logo](https://github.com/BowlOfSoup/go-trie/blob/main/go-trie-logo.png?raw=true)
+
+### Introduction
 A prefix or digital trie (pronounce as 'try') implementation for Go. A trie can be used to quickly construct associative arrays where the keys represent the characters of strings.
 
 Every character (or unicode code point) for a string will its own key; if you input multiple key => values in
@@ -33,14 +35,13 @@ root
 Important! For every character, all outcomes (values, like `yellow`) is saved. So for the first characters `G` and `o` 
 all values (`blue, yellow, pink, blue, yellow, pink, blue, green`) are saved.
 
-![go-trie-logo](https://github.com/BowlOfSoup/go-trie/blob/main/go-trie-logo.png?raw=true)
-
-### Go get
+### Usage
+#### Go get
 ```bash
 go get github.com/BowlOfSoup/go-trie
 ```
 
-### Usage
+#### Examples
 ```go
 package MyPackage
 
