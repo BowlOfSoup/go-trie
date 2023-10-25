@@ -28,12 +28,12 @@ root
                                ↓
                                B → l → u → e [blue]
                                ↓
-                               N → o → s → e
+                               N → o → s → e [black]
                                       ↓
                                       Y → e → l → l → o → w [yellow, pink, blue, green]
 ```
 Important! For every character, all outcomes (values, like `yellow`) is saved. So for the first characters `G` and `o` 
-all values (`blue, yellow, pink, blue, yellow, pink, blue, green`) are saved.
+all values (`blue, yellow, pink, blue, black, yellow, pink, blue, green`) are saved.
 
 ### Usage
 #### Go get
